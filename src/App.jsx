@@ -67,6 +67,9 @@ function App() {
   return (
     <div className="container">
       <h1>T-Shaped Experience Generator</h1>
+      Vibe coded by <a href="https://www.linkedin.com/in/eid-badr/">Eid Badr</a> | eid.badr@hotmail.com
+        <br/>
+        <br/>
       <p>Enter your name, horizontal skills, and vertical expertise.</p>
 
       <div className="form">
@@ -108,7 +111,9 @@ function App() {
       </div>
 
       <button onClick={handleDownload}>Download as Image</button>
+
     </div>
+
   );
 }
 
